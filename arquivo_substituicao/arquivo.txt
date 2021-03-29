@@ -1,0 +1,18 @@
+inicio
+    var x ;
+    var numa ;
+    escreva ' entre um numero ' ;
+    leia numa ;
+    x : 10 ;
+    se ( numa < x ) inicio
+        escreva ' Unidade é: ' ;
+        escreva numa ;
+    fim
+    senao inicio
+        se ( numa < 100 ) inicio
+            x : numa / 10 ;
+            escreva 'Unidade é: ' ;
+            escreva numa ;
+        fim
+    fim
+fim
